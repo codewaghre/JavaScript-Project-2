@@ -59,20 +59,40 @@ function topascalCase(string) {
 
 //toSnakeCase
 function toSnakeCase(string) {
-    return string.replaceAll(' ', '_')
+    //This is normal method
+    // return string.replaceAll(' ', '_')
+
+     //this is reguler exapression Method 
+    return string
+    .replace(/\s+/g, '_')     // Replace spaces with underscores
+    .replace(/-+/g, '_')      // Replace hyphens with underscores
+    .replace(/_+/g, '_')      // Replace multiple underscores with a single underscore
+    .replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`) // Convert camelCase to snake_case
+    .replace(/^_/, '');       // Remove any leading underscore
 }
+
 
 //tokabalCase
 function toKabalCase(string) {
-    return string.replaceAll(' ', '-')
+    //This is normal method
+    // return string.replaceAll(' ', '-')
+
+    //this is reguler exapression Method 
+     return string
+    .replace(/\s+/g, '-')         // Replace spaces with hyphens
+    .replace(/_+/g, '-')          // Replace underscores with hyphens
+    .replace(/-+/g, '-')          // Replace multiple hyphens with a single hyphen
+    .replace(/([a-z])([A-Z])/g, '$1-$2') // Insert hyphen between lowercase and uppercase letters
+    .toLowerCase();               // Convert the entire string to lowercase
 }
+
 
 //totrimCase
 function toTrimCase(string) {
+    //This is normal method
     return string.replaceAll(' ', '')
+
 }
-
-
 
 //Input value Update
 input.addEventListener('input', (e) => {
