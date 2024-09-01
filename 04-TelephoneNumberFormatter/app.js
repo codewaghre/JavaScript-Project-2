@@ -37,6 +37,6 @@ input.addEventListener('input', (e) => {
 
     }
 
-    number.innerText =  "Telephone Number is :- " + inputValue
+    number.textContent =  `You Entered : ${inputValue}`
     previousValue = inputValue
 })
