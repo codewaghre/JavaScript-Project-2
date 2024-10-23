@@ -32,16 +32,17 @@ Welcome
 
 There were several challenges in these mini projects that we handled. 
 
-![0002](https://github.com/user-attachments/assets/19d0f0b3-871d-434f-be1f-4b8fb1659418)
+![0007](https://github.com/user-attachments/assets/aea1b75b-6e6e-4640-97a7-f14137fa62ff)
+![0008](https://github.com/user-attachments/assets/fb83cede-7915-4f3d-a9d6-cc3376618632)
+![0009](https://github.com/user-attachments/assets/abbd00ed-05f3-4838-a401-f8c39cea1f6f)
 
-![0001](https://github.com/user-attachments/assets/3ac22794-97b5-48ef-96e8-0df4035c9640)
 
 This small project is made for beginners to address javascript errors, provide hands-on experience, and learn how to utilize fetch and dom. , How does an event loop operate? 
 What is a curring etch callback function?,  etc
 
 
 Here's why:
-* under the HTML Multiple Stadning tag.
+* HTML Multiple tags.
 * Block versus inline elements
 * CSS colors, CSS box properties.
 * CSS variable classes, and pseudo classes
@@ -51,6 +52,7 @@ Here's why:
 * JavaScript ES6
 * JavaScript event handling, async, and sync
 * javascript event bubling
+* javascript CRUD Operation 
 
 Naturally, not every topic that I discuss in the code above is mentioned. Thank you.
 
@@ -106,7 +108,6 @@ This is an example of how to list things you need to use the software and how to
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- CONTACT -->
